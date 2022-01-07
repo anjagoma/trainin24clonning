@@ -5,6 +5,9 @@
     max_clients: 200
   remote_user: root
   tasks:
+
+    New Text
+
     - name: Latest Apache version installed
       yum:
         name: httpd
@@ -13,4 +16,6 @@
       service:
         name: httpd
         enabled: true
-        state: started 
+        state: started
+
+New text 2
